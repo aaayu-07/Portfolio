@@ -1,65 +1,82 @@
-# My Portfolio Website - Overview 🚀
+# 🚀 Ayush Raj - Portfolio
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
-
----
-
-## ⚠️ Usage Notice
-
-This project is shared for learning purposes only.
-
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
-
-If you use parts of the code, you must provide proper credit linking back to the original repository.
-
-Build your own version — don’t just copy.
-
-— Moncy Yohannan
+Welcome to my personal portfolio website!  
+This project showcases my skills, projects, certifications, and research work as a Full Stack Developer.
 
 ---
 
-## 🛠️ Instructions
-
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
-
-For official GSAP Club plugins, refer here:  
-https://gsap.com/docs/v3/Installation/
+## 🌐 Live Website
+👉 (Add your deployed link here)
 
 ---
 
-## ⚙️ Tech Stack
-
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
-
----
-
-## 🎨 Assets Usage
-
-Some 3D assets included in this repository are free to use for learning purposes.
-
-However:
-
-- The original 3D avatar used on my live portfolio is NOT included in this repository
-- That avatar is a custom asset created over ~1 month
-- It is not open source and not available for reuse
-
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
+## 👨‍💻 About Me
+I am a final-year B.Tech Computer Science student at Lovely Professional University, passionate about building scalable web applications and exploring AI/ML technologies.
 
 ---
 
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
+## 🛠️ Tech Stack
+
+**Frontend:**  
+React.js, Tailwind CSS, JavaScript, TypeScript, HTML5, CSS3  
+
+**Backend:**  
+Node.js, Express.js, Python, Java  
+
+**Database:**  
+MongoDB, MySQL, PostgreSQL  
+
+**Tools:**  
+Git, GitHub, Postman, Docker, VS Code  
 
 ---
 
-## 📄 License
+## 🚀 Featured Projects
 
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
+### 🔹 Automed AI
+AI-based system for predicting lifestyle disease risks using Machine Learning.  
+Tech: React, Flask, MongoDB, Scikit-Learn  
 
-See the LICENSE file for full details
+### 🔹 Career Connect
+Full-stack job portal with authentication and role-based access.  
+Tech: MERN Stack  
 
+### 🔹 StockSense
+Real-time stock analytics dashboard with interactive charts.  
+Tech: React, FastAPI, Chart.js  
+
+### 🔹 Blogging Website
+Dynamic blogging platform with CRUD operations and authentication.  
+Tech: MERN Stack  
+
+---
+
+## 📜 Certifications
+- NPTEL – Human Computer Interaction  
+- Coursera – Web Applications in PHP  
+- Coursera – Generative AI & LLMs  
+- CipherSchools – MERN Stack Development  
+- Udemy – Data Structures & Algorithms  
+
+---
+
+## 📄 Research Work
+📌 *A Systematic Review of AI and Machine Learning in Lifestyle Disease Risk Stratification*  
+🔗 https://ieeexplore.ieee.org/document/11380605  
+
+---
+
+## 📬 Contact
+- 📧 Email: ayushraj8005@gmail.com  
+- 💼 LinkedIn: https://www.linkedin.com/in/ayush--raj  
+- 💻 GitHub: https://github.com/aaayu-07  
+
+---
+
+## ⚡ Installation & Setup
+
+```bash
+git clone https://github.com/aaayu-07/Portfolio.git
+cd Portfolio
+npm install
+npm run dev
