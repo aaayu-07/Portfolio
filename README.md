@@ -6,9 +6,7 @@ This project showcases my skills, projects, certifications, and research work as
 ---
 
 ## 🌐 Live Website
-👉 (Add your deployed link here)
-
----
+👉 https://aaayu-portfolio.vercel.app/
 
 ## 👨‍💻 About Me
 I am a final-year B.Tech Computer Science student at Lovely Professional University, passionate about building scalable web applications and exploring AI/ML technologies.
