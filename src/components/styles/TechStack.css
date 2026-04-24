@@ -1,0 +1,118 @@
+.techstack-section {
+  width: 100%;
+  padding-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.techstack-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.techstack-container h2 {
+  font-size: 70px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.techstack-container h2 span {
+  color: var(--accentColor);
+}
+
+.techstack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.techstack-category {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 2.5rem;
+  transition: transform 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.techstack-category::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--secondary);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.techstack-category:hover {
+  transform: translateY(-8px);
+  border-color: rgba(255,255,255,0.15);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+.techstack-category:hover::before {
+  opacity: 1;
+}
+
+.techstack-category h3 {
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.techstack-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.techstack-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 15px;
+  color: #ccc;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  cursor: default;
+  backdrop-filter: blur(5px);
+}
+
+.techstack-chip:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--secondary);
+  color: #fff;
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.chip-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  filter: drop-shadow(0 0 5px rgba(255,255,255,0.1));
+}
+
+@media screen and (max-width: 768px) {
+  .techstack-grid {
+    grid-template-columns: 1fr;
+  }
+  .techstack-category {
+    padding: 2rem 1.5rem;
+  }
+}

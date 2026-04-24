@@ -1,0 +1,149 @@
+.research-section {
+  width: 100%;
+  padding-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.research-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.research-container h2 {
+  font-size: 70px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.research-container h2 span {
+  color: var(--accentColor);
+}
+
+.research-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 3rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.research-card::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, transparent, rgba(235, 225, 240, 0.2), transparent);
+  z-index: -1;
+  border-radius: 18px;
+  transition: opacity 0.4s ease;
+  opacity: 0;
+}
+
+.research-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--secondary);
+}
+
+.research-card:hover::before {
+  opacity: 1;
+}
+
+.research-badge-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.research-badge {
+  background: rgba(186, 128, 204, 0.15); /* secondary color faint */
+  color: var(--secondary);
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid rgba(186, 128, 204, 0.3);
+}
+
+.research-timeline {
+  font-size: 0.9rem;
+  color: #999;
+  letter-spacing: 1px;
+}
+
+.research-card h3 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.research-card p {
+  color: #bbb;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  max-width: 90%;
+}
+
+.research-tech {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.research-tech-badge {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  color: #ddd;
+}
+
+.research-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #fff;
+  color: #000;
+  padding: 0.8rem 1.8rem;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.research-btn:hover {
+  background-color: var(--secondary);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+  .research-card {
+    padding: 2rem;
+  }
+  .research-card h3 {
+    font-size: 1.4rem;
+  }
+  .research-badge-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
