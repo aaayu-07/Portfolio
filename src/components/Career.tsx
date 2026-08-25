@@ -18,7 +18,7 @@ const Career = () => {
               <div className="career-role" style={{ flex: 1 }}>
                 <h4>B.Tech in Computer Science and Engineering</h4>
                 <h5>Lovely Professional University</h5>
-                <h6 style={{ fontSize: "16px", color: "#ccc", margin: "5px 0 0 0", fontWeight: "300" }}>CGPA: 7.72</h6>
+                <h6 style={{ fontSize: "16px", color: "#ccc", margin: "5px 0 0 0", fontWeight: "300" }}>CGPA: 7.94</h6>
               </div>
               <h3 style={{ fontSize: "26px", whiteSpace: "nowrap", flexShrink: 0 }}>2022 – 2026</h3>
             </div>
